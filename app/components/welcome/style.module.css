@@ -3,13 +3,14 @@
 }
 
 .bgGrayColor {
-  background-color: #F9FAFB;
+  background-color: #F9FAFB; /* خلفية باللون الرمادي الفاتح */
 }
 
 .headerBg {
   height: 3.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  background-color: #101828; /* خلفية باللون الأزرق الداكن */
 }
 
 .formLabel {
@@ -19,6 +20,9 @@
 
 .customBtn {
   width: 136px;
+  background-color: #FFB36D; /* زر باللون البرتقالي الفاتح */
+  color: #101828; /* لون النص الأزرق الداكن */
+  border-radius: 8px;
 }
 
 .logo {
