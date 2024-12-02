@@ -8,9 +8,9 @@
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
-  background: #000000;
+  background: #101828; /* خلفية باللون الأزرق الداكن */
   box-shadow: 0 -.04rem .1rem 1px rgba(255, 255, 255, 0.1);
-  border-radius: .1rem .1rem .1rem .1rem;
+  border-radius: .1rem;
 }
 
 .main {
@@ -39,5 +39,5 @@
 .text {
   text-align: center;
   font-size: .2rem;
-  color: rgba(255, 255, 255, 0.86);
+  color: #FFB36D; /* تغيير لون النص إلى البرتقالي الفاتح */
 }
