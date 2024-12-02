@@ -23,23 +23,23 @@
 
 @keyframes dot-flashing {
   0% {
-    background-color: #667085;
+    background-color: #101828; /* الأزرق الداكن */
   }
 
   50%,
   100% {
-    background-color: rgba(102, 112, 133, 0.3);
+    background-color: rgba(16, 24, 40, 0.3); /* الأزرق الداكن مع شفافية */
   }
 }
 
 @keyframes dot-flashing-avatar {
   0% {
-    background-color: #155EEF;
+    background-color: #FFB36D; /* البرتقالي الفاتح */
   }
 
   50%,
   100% {
-    background-color: rgba(21, 94, 239, 0.3);
+    background-color: rgba(255, 179, 109, 0.3); /* البرتقالي الفاتح مع شفافية */
   }
 }
 
@@ -49,8 +49,8 @@
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: #667085;
-  color: #667085;
+  background-color: #101828; /* الأزرق الداكن */
+  color: #101828; /* الأزرق الداكن */
   animation-name: dot-flashing;
 }
 
@@ -68,8 +68,8 @@
   width: 2px;
   height: 2px;
   border-radius: 50%;
-  background-color: #155EEF;
-  color: #155EEF;
+  background-color: #FFB36D; /* البرتقالي الفاتح */
+  color: #FFB36D; /* البرتقالي الفاتح */
   animation-name: dot-flashing-avatar;
 }
 
