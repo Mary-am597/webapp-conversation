@@ -1,0 +1,36 @@
+{
+  "name": "Robot Teacher",
+  "short_name": "RobotT",
+  "description": "Robot Teacher هو تطبيق ذكي يقدم خدمات تعليمية مثل الشروحات، مراجعات، ألعاب تعليمية، وأسئلة لتحسين تجربة التعلم.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FDF3E6",
+  "theme_color": "#101828",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "orientation": "portrait",
+  "id": "/",
+  "categories": ["education", "learning", "teaching"],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot1.png",
+      "type": "image/png",
+      "sizes": "1080x1920"
+    }
+  ],
+  "lang": "ar",
+  "dir": "rtl"
+}
